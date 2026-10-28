@@ -1,0 +1,17 @@
+.TIME 1E-005 1.005 1 1 0 0 0 0 0
+.TI_DMC_VERSION 402 
+VP Vin 1 
+VP Vout 2 
+VDC VDC1 1 0 100 0 0 
+IP Icoil 3 4 
+IP Iout 4 2 
+C C 4 0 250uF 0 0 
+L L 9 3 120mH 0 0 
+DIODE D 0 8 0 0 0 0 
+MOSFET Q1 5 6 7 0 1 0 0 0 
+R Rload 2 0 125.0 0 
+R R_L 10 9 10 0 
+IP Iin 1 5 
+GATING G2 7 1kHz 2 0 216 
+IP Imosfet 6 8 
+IP Id 8 10 

@@ -1,0 +1,23 @@
+title: Arnau Report
+author: Arnau Coronado
+version: 1.1.0
+quarto-required: ">=1.4.0"
+contributes:
+  formats:
+    pdf:
+      pdf-engine: lualatex
+      template: eisvogel.latex
+      tbl-longtable: false
+      mainfont: Inter
+      monofont: FiraCode
+      include-in-header:
+        - fonts.latex
+      toc: true
+      number-sections: true
+      block-heading: false
+      toc-own-page: true
+      link-citations: true
+      titlepage: true
+      csl: "ieee-with-url.csl"
+      colorlinks: true
+      classoption: oneside

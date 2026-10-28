@@ -1,0 +1,26 @@
+\usepackage{fontspec}
+
+\setmainfont[
+  Path=_extensions/arnau-informe/fonts/Inter/static/,
+  Extension=.ttf,
+  UprightFont=*-Regular,
+  BoldFont=*-Bold,
+  ItalicFont=*-Italic,
+  BoldItalicFont=*-BoldItalic
+]{Inter}
+
+\setsansfont[
+  Path=_extensions/arnau-informe/fonts/Inter/static/,
+  Extension=.ttf,
+  UprightFont=*-Regular,
+  BoldFont=*-Bold,
+  ItalicFont=*-Italic,
+  BoldItalicFont=*-BoldItalic
+]{Inter}
+
+\setmonofont[
+  Path=_extensions/arnau-informe/fonts/Fira_Code/static/,
+  Extension=.ttf,
+  UprightFont=*-Regular,
+  BoldFont=*-Bold
+]{FiraCode}
