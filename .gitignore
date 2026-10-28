@@ -1,0 +1,17 @@
+
+# PDF documents
+*.pdf
+
+# Images
+*.png
+*.jpg
+*.jpeg
+
+# Other documents
+*.xlsx
+*.docx
+
+# Python cache (if applicable)
+__pycache__/
+*.pyc
+
